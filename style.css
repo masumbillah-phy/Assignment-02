@@ -12,6 +12,9 @@ main{
     margin-left: 8%;
     margin-right: 8%;
 }
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=News+Cycle&family=Oswald:wght@700&family=Passion+One&family=Poppins:ital,wght@0,500;0,900;1,400&family=Space+Mono&family=Suez+One&display=swap');
+
 /* Top Banner start */
 .top-banner{
     background-color:#1E1E1E;
@@ -27,12 +30,16 @@ main{
     margin-right: 5%;
 }
 .half-width h1{
+    font-family: 'Poppins', sans-serif;
     font-size: 45px;
     margin-bottom: 15px;
 }
 .half-width p{
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin-bottom: 20px;
+    font-weight: 100;
+    word-spacing: 2px;
 }
 .button{
     background-color: orangered;
@@ -87,6 +94,7 @@ main{
 .sports{
     width: 200px;
     height: 120px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 .content{

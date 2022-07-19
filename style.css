@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Common utilities */
+body{
+    background-color: aqua;
+}
+main{
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+/* Top Banner start */
+.top-banner{
+    background-color:black;
+    display: flex;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 8%;
+}
+.half-width{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.half-width h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.half-width p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.button{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* Top Banner End */
+
+/* Middle Section Start */
+.menu{
+    width:250px;
+    height: 220px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn{
+    background-color:whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#btn{
+    background-color:orangered;
+    color:white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+

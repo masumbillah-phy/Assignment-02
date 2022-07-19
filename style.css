@@ -18,7 +18,7 @@ main{
     display: flex;
     color: white;
     border-radius: 15px;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 .half-width{
     width: 50%;
@@ -44,9 +44,14 @@ main{
 /* Top Banner End */
 
 /* Middle Section Start */
+.middle-section{
+    display: flex;
+    margin-bottom: 5%;
+}
+/* Middle-Left */
 .menu{
-    width:250px;
-    height: 220px;
+    width:200px;
+    height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -54,6 +59,7 @@ main{
     padding: 25px;
     text-align: center;
     border-radius: 10px;
+    margin-right: 15px;
 }
 .btn{
     background-color:whitesmoke;
@@ -69,4 +75,46 @@ main{
     padding: 10px 15px;
     border-radius: 5px;
 }
+/* Middle-Right */
+.middle-right{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.middle-content{
+    width: 215px;
+    height:280px;
+}
+.sports{
+    width: 200px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.content{
+    margin-bottom: 20px;
+}
+.content h3{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.transfer{
+   padding:3px 8px;
+   text-decoration: none;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.icon{
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+}
+.icon img{
+    margin-right: 10px;
+}
+.content-icon{
+    display: flex;  
+}
+
+/* Middle- Right End */
+
+
 
